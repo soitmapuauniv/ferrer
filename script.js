@@ -18,6 +18,7 @@ for(let i = 0; i < navBtn.length; i++){
   });
 }
 
+
 // Information Collapse Toggle
 const info = document.querySelector('.Information');
 const infoBtn = document.querySelector('.infoBtn');
