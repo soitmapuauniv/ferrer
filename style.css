@@ -123,3 +123,56 @@ body {
     background-color: #007bff;
     border-radius: 10px;
 }
+/* Skills Section */
+.skills {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Individual Skills */
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Progress Bar */
+.bar {
+    width: 100%;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 8px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+/* Other Skills Section */
+.other-skills {
+    margin-top: 20px;
+}
+
+.other-skills h3 {
+    font-size: 18px;
+    color: #1e90ff;
+}
+
+.other-skills p {
+    font-size: 16px;
+    color: #bbb;
+}
