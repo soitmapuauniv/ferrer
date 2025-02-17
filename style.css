@@ -187,15 +187,10 @@ body {
 .other-skills p {
     font-size: 16px;
     color: #bbb;
-}
 .left-frame img {
-    width: 100%;
-    border-radius: 12px; /* Smooth edges instead of a circle */
-    border: 3px solid #333; /* Optional: Add a subtle border */
-}
-.left-frame img {
-    width: 100%;
-    height: auto; /* Adjust based on your design */
-    object-fit: fit; /* Ensures it fills the space without stretching */
-    border-radius: 12px;
+    width: 100%; /* Makes the image responsive */
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Prevents stretching and distortion */
+    border-radius: 12px; /* Smooth edges like the right frame */
+    display: block;
 }
