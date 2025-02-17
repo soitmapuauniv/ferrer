@@ -195,7 +195,7 @@ body {
 }
 .left-frame img {
     width: 100%;
-    height: 200px; /* Adjust based on your design */
+    height: auto; /* Adjust based on your design */
     object-fit: fit; /* Ensures it fills the space without stretching */
     border-radius: 12px;
 }
