@@ -197,6 +197,7 @@ body {
 .about-container {
     display: flex;
     align-items: flex-start;
+    text-align: justify; /* Justify text */
     gap: 20px; /* Adds spacing between image and text */
     flex-wrap: wrap; /* Ensures content wraps properly */
 }
