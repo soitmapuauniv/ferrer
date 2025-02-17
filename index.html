@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head> 
+</head>
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="profile">
-                <img src="profile.jpg" alt="Jose Victorino">
-                <h2>Jose Victorino</h2>
-                <p>2nd Year IT Student</p>
-            </div>
-            <div class="contact">
-                <p><strong>📞</strong> (+63) 9284650259</p>
-                <p><strong>📧</strong> josevictorino003@gmail.com</p>
-                <p><strong>🏫</strong> Mapua University</p>
-            </div>
-            <div class="social-icons">
-    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-</div>
-        </aside>
- <div class="main-content">
-        <div class="about-me">
-                <h1>About Me</h1>
-                <div class="about-content">
-                    <img src="about.jpg" alt="Jose Victorino">
-                    <p>Hello, I am Jose Victorino aiming to be a future Web Developer. I enjoy programming, especially building websites...</p>
-                </div>
-            </div>
 
-            <section class="skills">
-                <h2>Skills</h2>
-                <div class="skills-container">
-                    <div class="skill">
-                        <p>HTML5</p>
-                        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
-                    </div>
-                    <div class="skill">
-                        <p>CSS</p>
-                        <div class="bar"><div class="progress" style="width: 40%;"></div></div>
-                    </div>
-                    <div class="skill">
-                        <p>JavaScript</p>
-                        <div class="bar"><div class="progress" style="width: 20%;"></div></div>
-                    </div>
-                    <div class="skill">
-                        <p>Video Editing</p>
-                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
-                        <div class="other-skills">
+    <!-- Fixed Sidebar -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Image">
+            <h2>Jose Victorino</h2>
+            <p>2nd Year IT Student</p>
+            <hr>
+            <p><i class="fas fa-user"></i> Jose Lorenzo L. Victorino</p>
+            <p><i class="fas fa-phone"></i> (+63) 9284650259</p>
+            <p><i class="fas fa-envelope"></i> josevictorino003@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Mapua University</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navigation Bar -->
+        <div class="nav-box">
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Course</a>
+                <a href="#">Resume</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="about-me">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="profile.jpg" alt="Profile Picture">
+                <p>
+                    Hello, I am Jose Victorino aiming to be a future Web Developer. 
+                    I enjoy programming, especially building websites. 
+                    I strive to learn more about what it takes to be a Web Developer.
+                </p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="coding">
+                    <h3>Coding</h3>
+                    <p>HTML 5 - Intermediate</p>
+                    <p>CSS - Fundamentals</p>
+                    <p>JavaScript - Novice</p>
+                </div>
+                <div class="other-skills">
                     <h3>Others</h3>
                     <p>Image Editing - Fundamentals</p>
                     <p>Video Editing - Intermediate</p>
-                    </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>
