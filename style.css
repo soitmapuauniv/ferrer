@@ -299,34 +299,3 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
-/* Image and Text Container Styles */
-.image-text-container {
-    display: flex;
-    align-items: center; /* Aligns image and text vertically */
-    margin-bottom: 20px;
-}
-
-.content-image {
-    width: 150px; /* Set the image width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px;
-    margin-right: 20px; /* Space between image and text */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.text-container {
-    max-width: 70%; /* Adjusts the width of the text */
-}
-
-.text-container h2 {
-    margin: 0;
-    color: #f0f0f0;
-    font-size: 1.5em;
-}
-
-.text-container p {
-    color: #bbb;
-    font-size: 1em;
-    line-height: 1.6;
-    margin-top: 5px;
-}
