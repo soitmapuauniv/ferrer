@@ -214,50 +214,65 @@ body {
     min-height: 100vh;
     margin: 0;
 }
-
-/* Style the contact form container */
-.contact-form {
-    background-color: #2a2a2a; /* Dark background */
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    width: 100%; /* Ensures responsiveness */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-/* Style for all input fields and the textarea */
-.contact-form input,
-.contact-form textarea {
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 15px;
+    max-width: 400px;
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form .form-group {
     margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #3a3a3a;
-    color: #fff;
     font-size: 16px;
 }
 
-/* Placeholder text color */
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-    color: #bbb;
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
 }
 
-/* Style for the submit button */
-.contact-form button {
+.submit-button {
     width: 100%;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 10px;
+    background-color: #333;
     color: #fff;
-    background-color: #0095ff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
-/* Hover effect for the submit button */
-.contact-form button:hover {
-    background-color: #007acc;
+.submit-button:hover {
+    background-color: #555;
 }
