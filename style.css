@@ -318,3 +318,21 @@ button {
 button:hover {
     background: #ff3333;
 }
+/* Center text for the profile section */
+.profile {
+    text-align: center;
+}
+
+/* Center the contact form */
+.contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%; /* Adjust width as needed */
+    text-align: center; /* Center placeholder text */
+}
