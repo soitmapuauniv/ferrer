@@ -262,40 +262,99 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-/* Contact form styles */
-.contact-form {
-    width: 50%;
-    background: #1a1a1a;
-    padding: 20px;
-    border-radius: 10px;
+    /* Contact Page Container */
+.contact-container {
+    width: 70%;
+    background-color: #222;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
 }
 
-/* Styling input fields */
+.contact-container h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-container .underline {
+    width: 100px;
+    height: 5px;
+    background-color: #00aaff;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form .input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .contact-form input,
 .contact-form textarea {
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #ddd;
     width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    background: #222;
-    border: none;
-    color: white;
-    border-radius: 5px;
 }
 
-/* Making the name & email inputs align properly */
-.contact-form input:nth-child(1),
-.contact-form input:nth-child(2) {
-    width: 49%;
-    display: inline-block;
+.contact-form textarea {
+    resize: none;
 }
 
-/* Button styling */
-.contact-form button {
-    background: #333;
+/* Submit Button Styles */
+.contact-form .btn {
+    background-color: #00aaff;
     color: white;
-    padding: 10px 15px;
     border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .btn:hover {
+    background-color: #0088cc;
+}
+
+/* Ensures smooth transitions */
+.content-box,
+.navbar {
+    transition: margin 0.3s, padding 0.3s;
+}
+
+/* Highlight the input and textarea fields when focused */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 2px solid #00bfff; /* Change the border color to blue when focused */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(0, 191, 255, 0.5); /* Add a glowing effect */
+    transition: all 0.2s ease-in-out; /* Smooth transition for focus */
+}
+
+/* General input field styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc; /* Default border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
