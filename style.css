@@ -248,3 +248,73 @@ body {
 .contact-form button:hover {
     background-color: #2980b9;
 }
+/* Centering the contact form */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #1e1e1e, #292929); /* Dark background */
+}
+
+/* Contact Form Box */
+.contact-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.contact-box h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.input-box textarea {
+    resize: none;
+}
+
+/* Placeholder Color */
+.input-box input::placeholder,
+.input-box textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Send Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4c4c;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3333;
+}
