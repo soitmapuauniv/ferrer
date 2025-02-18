@@ -276,3 +276,49 @@ body {
 .submit-button:hover {
     background-color: #555;
 }
+.skills {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and text */
+    max-width: 800px;
+    width: 100%;
+}
+
+.content-image {
+    width: 150px; /* Adjust image size */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text-container {
+    text-align: left;
+    color: #fff;
+}
+
+.text-container h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 16px;
+    color: #ccc;
+}
