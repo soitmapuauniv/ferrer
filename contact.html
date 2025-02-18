@@ -42,19 +42,26 @@
             </nav>
         </div>
 
-        <!-- About Me Section -->
-<div class="about-me">
-    <h2>Contact</h2>
-   <body>
-    <div class="container">
-        <div class="contact-form">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Subject">
-            <input type="message" placeholder="Message">
-            <button type="submit">Send Message</button>
+            <!-- Contact Section with Consistent Styling -->
+            <section>
+            <div class="content-box">
+                <h1>Contact</h1>
+                <div class="underline"></div>
+
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+
+                    <textarea id="message" name="message" rows="6" placeholder="Message"></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+            </section>
         </div>
     </div>
-</div>
-</body>
 </html>
