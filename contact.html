@@ -39,15 +39,15 @@
 
         <!-- About Me Section -->
 <div class="about-me">
-    <h2>Contact</h2>
 <div class="contact-form">
-    <div class="form-group">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-    </div>
-    <input type="text" placeholder="Subject">
-    <textarea placeholder="Message" rows="5"></textarea>
-    <button type="submit">Send Message</button>
+    <h2>Contact Me</h2>
+    <form action="your_form_processing_script" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
 </div>
 </div>
 </body>
