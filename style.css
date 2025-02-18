@@ -206,57 +206,58 @@ body {
     max-width: 600px; /* Prevents text from stretching too wide */
     line-height: 1.6; /* Improves readability */
 }
+/* Ensure the body takes the full height and centers its content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style the contact form container */
 .contact-form {
-    background-color: #2a2a2a;
+    background-color: #2a2a2a; /* Dark background */
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
-    margin: auto;
+    width: 100%; /* Ensures responsiveness */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
-
-.contact-form h2 {
-    color: white;
-    margin-bottom: 15px;
-}
-
+/* Style for all input fields and the textarea */
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #3a3a3a;
-    color: white;
+    color: #fff;
     font-size: 16px;
 }
 
+/* Placeholder text color */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color: #bbb;
 }
 
-.contact-form .form-group {
-    display: flex;
-    gap: 10px;
-}
-
-.contact-form .form-group input {
-    flex: 1;
-}
-
+/* Style for the submit button */
 .contact-form button {
     width: 100%;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: #fff;
     background-color: #0095ff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+/* Hover effect for the submit button */
 .contact-form button:hover {
     background-color: #007acc;
 }
