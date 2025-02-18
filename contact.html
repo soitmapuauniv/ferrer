@@ -3,31 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <div class="contact-container">
-        <h2>Contact</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+    <!-- Fixed Sidebar -->
+    <div class="sidebar">
+        <div class="profile">
+            <h2></h2>
+            <p>GR 12 MAPUA UNIVERSITY STUDENT</p>
+            <hr>
+            <p><i class="fas fa-user"></i> JP Benedict D. Ferrer</p>
+            <p><i class="fas fa-phone"></i> (+63) 9278619726</p>
+            <p><i class="fas fa-envelope"></i> ferrer.jpbenedict@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Mapua University - Makati</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/jp.ferrer.311"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/iced.car/"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="submit-button">Send Message</button>
-        </form>
+        </div>
     </div>
+    
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navigation Bar -->
+        <div class="nav-box">
+            <nav>
+                <a href="index.html">About</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+        <!-- About Me Section -->
+<div class="about-me">
+<div class="contact-form">
+    <h2>Contact Me</h2>
+    <form action="your_form_processing_script" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+</div>
 </body>
 </html>
