@@ -256,83 +256,47 @@ body {
     height: 100vh;
     background: linear-gradient(to right, #1e1e1e, #292929); /* Dark background */
 }
-
-/* Contact Form Box */
-.contact-box {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 30px;
-    width: 50%;
-    max-width: 500px;
-    text-align: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Heading */
-.contact-box h2 {
-    color: white;
-    margin-bottom: 15px;
-}
-
-/* Input Fields */
-.input-box {
-    margin-bottom: 15px;
-}
-
-.input-box input,
-.input-box textarea {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-}
-
-.input-box textarea {
-    resize: none;
-}
-
-/* Placeholder Color */
-.input-box input::placeholder,
-.input-box textarea::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-/* Send Button */
-button {
-    width: 100%;
-    padding: 12px;
-    background: #ff4c4c;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover {
-    background: #ff3333;
-}
-/* Center text for the profile section */
-.profile {
-    text-align: center;
-}
-
-/* Center the contact form */
-.contact {
-    text-align: center;
+/* Centering the entire form */
+.container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-.contact input,
-.contact textarea {
-    width: 80%; /* Adjust width as needed */
-    text-align: center; /* Center placeholder text */
+/* Contact form styles */
+.contact-form {
+    width: 50%;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styling input fields */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background: #222;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Making the name & email inputs align properly */
+.contact-form input:nth-child(1),
+.contact-form input:nth-child(2) {
+    width: 49%;
+    display: inline-block;
+}
+
+/* Button styling */
+.contact-form button {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
